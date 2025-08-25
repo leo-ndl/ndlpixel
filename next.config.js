@@ -1,13 +1,13 @@
 module.exports = {
   output: "export", // comment this line while development
   assetPrefix: "/",
-  exportTrailingSlash: true, // comment this line while development
+  trailingSlash: true, // comment this line while development
   basePath: "",
   distDir: 'build',
   // trailingSlash: true,
   swcMinify: true,
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
   async redirects() {
     return [

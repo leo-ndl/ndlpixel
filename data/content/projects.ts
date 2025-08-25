@@ -6,8 +6,8 @@ const projects = [
     title: "Sensai",
     desc: "Learn coding anywhere, with funny and interactive course on your phone",
     img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/sensai.jpg`,
-    link: "https://sensai.ndlpixel.com/",
-    tags: ["React-Native", "Firebase", "Javascript", "ExpressJs", "CI/CD", "Git"]
+    link: "https://sensai-playtolearn.com/",
+    tags: ["React-Native", "Firebase","MongoDB", "Javascript", "ExpressJs", "CI/CD", "Git"]
   },
   {
     id: 1,
@@ -29,7 +29,7 @@ const projects = [
     title: "Tchopify - Food order",
     desc: "A complete Food order web app like uber eat, with 3 parts admin, merchant and markeplace",
     img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/tchopify.png`,
-    github: "https://github.com/leo-gtx/tchopify-restaurant-react",
+    github: "https://github.com/leo-ndl/tchopify-restaurant-react",
     tags: ["React", "Javascript", "Redux", "Firebase", "GoogleMap"]
   },
   {

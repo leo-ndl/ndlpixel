@@ -8,19 +8,19 @@ export const metadata = {
   description:
     "Let's collaborate! Reach out to discuss projects, opportunities, or just to say hello. I'm excited to connect and explore potential collaborations in the world of web and mobile development and beyond.",
   alternates: {
-    canonical: "https://ndlpixel.com/projects"
+    canonical: "https://ndl-pixel.vercel.app/projects"
   },
   openGraph: {
     title: "Get in Touch - Connect with Me - Leonel Nguefack",
     description:
       "Let's collaborate! Reach out to discuss projects, opportunities, or just to say hello. I'm excited to connect and explore potential collaborations in the world of web and mobile development and beyond.",
-    url: "https://ndlpixel.com/projects"
+    url: "https://ndl-pixel.vercel.app/projects"
   },
   twitter: {
     title: "Get in Touch - Connect with Me - Leonel Nguefack",
     description:
       "Let's collaborate! Reach out to discuss projects, opportunities, or just to say hello. I'm excited to connect and explore potential collaborations in the world of web and mobile development and beyond.",
-    url: "https://ndlpixel.com/projects"
+    url: "https://ndl-pixel.vercel.app/projects"
   }
 };
 

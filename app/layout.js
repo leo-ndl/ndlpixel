@@ -30,18 +30,18 @@ export const metadata = {
   description:
     "Experienced React developer adept in crafting dynamic web applications with React.js, nodejs and mobile application with React-native . Explore my portfolio for innovative projects and seamless user experiences.",
   alternates: {
-    canonical: "https://ndlpixel.com/"
+    canonical: "https://ndl-pixel.vercel.app"
   },
-  metadataBase: new URL("https://ndlpixel.com"),
+  metadataBase: new URL("https://ndl-pixel.vercel.app"),
   openGraph: {
     title: "Leonel Nguefack - Web and Mobile Developer, Fullstack React Dev and Dancer.",
     description:
       "Experienced React developer adept in crafting dynamic web applications with React.js, nodejs and mobile application with React-native . Explore my portfolio for innovative projects and seamless user experiences.",
-    url: "https://ndlpixel.com",
+    url: "https://ndl-pixel.vercel.app",
     siteName: "Leonel Nguefack",
     images: [
       {
-        url: "https://ndlpixel.com/static/misc/og.png",
+        url: "https://ndl-pixel.vercel.app/static/misc/og.png",
         alt: "Leonel Nguefack"
       }
     ],
@@ -85,9 +85,9 @@ export const metadata = {
     title: "Leonel Nguefack - Web and Mobile Developer, Fullstack React Dev and Dancer.",
     description:
       "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
-    url: "https://ndlpixel.com",
+    url: "https://ndl-pixel.vercel.app",
     images: {
-      url: "https://ndlpixel.com/static/misc/og.png",
+      url: "https://ndl-pixel.vercel.app/static/misc/og.png",
       alt: "Leonel Nguefack"
     }
   }

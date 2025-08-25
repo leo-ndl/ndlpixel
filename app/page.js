@@ -8,7 +8,7 @@ export default function Home() {
     <Page
       currentPage="Home"
       meta={{
-        desc: "Experienced React developer adept in crafting dynamic web applications with React.js, nodejs and mobile application with React-native . Explore my portfolio for innovative projects and seamless user experiences."
+        desc: "Experienced React developer adept in crafting dynamic web applications with React.js, nodejs, mongoDB and mobile application with React-native . Explore my portfolio for innovative projects and seamless user experiences."
       }}
     >
       <Hero />

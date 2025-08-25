@@ -9,19 +9,19 @@ export const metadata = {
   description:
     "I love coding using tools like React, React-Native, ExpressJs, Symfony, Firebase, and many more! Here are some of my favorite projects.",
   alternates: {
-    canonical: "https://ndlpixel.com/projects"
+    canonical: "https://ndl-pixel.vercel.app/projects"
   },
   openGraph: {
     title: "Projects - Leonel Nguefack",
     description:
       "I love coding using tools like React, React-Native, ExpressJs, Symfony, Firebase, and many more! Here are some of my favorite projects.",
-    url: "https://ndlpixel.com/projects"
+    url: "https://ndl-pixel.vercel.app/projects"
   },
   twitter: {
     title: "Projects - Leonel Nguefack",
     description:
       "I love coding using tools like React, React-Native, ExpressJs, Symfony, Firebase, and many more! Here are some of my favorite projects.",
-    url: "https://ndlpixel.com/projects"
+    url: "https://ndl-pixel.vercel.app/projects"
   }
 };
 

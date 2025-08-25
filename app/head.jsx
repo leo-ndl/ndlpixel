@@ -34,26 +34,26 @@ export default function Head({ currentPage = "Home" }) {
         href={`static/favicon/favicon-16x16.png`}
       />
       <link rel="manifest" href={`${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/site.webmanifest`} />
-      <link rel="canonical" href="https://ndlpixel.com/" />
+      <link rel="canonical" href="https://ndl-pixel.vercel.app/" />
       <meta name="title" content={pageTitle} />
       <meta name="description" content={desc} />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://ndlpixel.com/" />
+      <meta property="og:url" content="https://ndl-pixel.vercel.app/" />
       <meta property="og:title" content={pageTitle} />
       <meta property="og:description" content={desc} />
       <meta
         property="og:image"
-        content="https://ndlpixel.com/static/misc/og.png"
+        content="https://ndl-pixel.vercel.app/static/misc/og.png"
       />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://ndlpixel.com/" />
+      <meta property="twitter:url" content="https://ndl-pixel.vercel.app/" />
       <meta property="twitter:title" content={pageTitle} />
       <meta property="twitter:description" content={desc} />
       <meta
         property="twitter:image"
-        content="https://ndlpixel.com/static/misc/og.png"
+        content="https://ndl-pixel.vercel.app/static/misc/og.png"
       ></meta>
     </>
   );
