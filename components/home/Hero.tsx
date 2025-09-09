@@ -2,6 +2,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import HeroLink from "./HeroLink";
+import HeroSubLink from "./HeroSubLink";
 
 function Hero() {
   return (
@@ -10,10 +11,9 @@ function Hero() {
         className="relative w-full pt-20 pb-40 m-auto flex justify-center text-center flex-col items-center z-1"
         style={{ maxWidth: "1200px" }}
       >
-        <p className="text-xl mb-5">Hey, I'm Leonel.</p>
+        <p className="text-xl mb-5">Senior FullStack React / React Native Developer</p>
         <h1 className="heroTitle inline-block max-w-2xl lg:max-w-4xl  w-auto relative text-5xl md:text-6xl lg:text-7xl tracking-tighter mb-10 font-bold heroShinyBg">
-          My passion is to <span className="heroShiny1 text-fun-pink">design</span> and{" "}
-          <span className="heroShiny2 text-fun-pink">build</span> web and mobile application.
+          I build <span className="heroShiny1 text-fun-pink">web & mobile</span> apps that convert users into customers. 
           <img
             alt="html"
             className="sqD squiggle-hero-html w-16 top-[-90px] right-[5%] sm:top-[-90px] sm:right-[170px]"
@@ -62,7 +62,11 @@ function Hero() {
             src={`${process.env.NEXT_PUBLIC_BASE_URL}static/doodles/hero/code.svg`}
           />
         </h1>
-        <HeroLink />
+        <div className="flex justify-between text-center flex-col ">
+          <HeroLink />
+          <HeroSubLink/>
+        </div>
+        
       </div>
     </>
   );

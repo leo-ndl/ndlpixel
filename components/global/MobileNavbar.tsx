@@ -34,7 +34,7 @@ export default function MobileNavbar() {
         style={{ zIndex: 101 }}
       >
         <li className="list-none font-bold text-lg">
-          <Link href="/">
+          <Link href="mailto:nguefackleonel@gmail.com">
             <span className="font-black text-xl flex items-center">
               <img
                 alt={"Leonel Nguefack"}
@@ -42,7 +42,7 @@ export default function MobileNavbar() {
                 src={`${process.env.NEXT_PUBLIC_BASE_URL}static/logos/logo_no_text.png`}
                 width="60"
               />
-              {"Pixel".split("").map((letter, index) => {
+              {"Open· Freelance · Remote".split("").map((letter, index) => {
                 return (
                   <span
                     key={index}

@@ -1,11 +1,11 @@
 export default function Head({ currentPage = "Home" }) {
   const pageTitle = `${
     currentPage === "Home"
-      ? "Leonel Nguefack - Mobile and Web Developer, Fullstack React dev and Dancer"
+      ? "Leonel Nguefack - Senior Fullstack React / React Native developer"
       : `${currentPage} - Leonel Nguefack`
   }`;
   const desc =
-    "Experienced React developer adept in crafting dynamic web applications with React.js, nodejs and mobile application with React-native . Explore my portfolio for innovative projects and seamless user experiences.";
+    "I build web & mobile apps that convert users into customers.";
   return (
     <>
       <link rel="manifest" href={`${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/site.webmanifest`} />
@@ -13,7 +13,7 @@ export default function Head({ currentPage = "Home" }) {
       <meta content="width=device-width, initial-scale=1" name="viewport" />
       <meta
         name="keywords"
-        content="Leonel Nguefack, leonel nguefack, sensai, dancer, speexel, freelancers, react developer, reactjs freelancer, nextjs, nodejs, reactjs, mobile developer, react-native developer, php, symfony, expressjs, react-native, reactnative, firebase, android developer, ios developer,"
+        content="Leonel Nguefack, leonel nguefack, sensai, freelancer, react developer, reactjs freelancer, nextjs, nodejs, reactjs, mobile developer, react-native developer, php, symfony, expressjs, react-native, firebase, android developer, ios developer,"
       />
       <link rel="icon" href={`${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/favicon.ico`} />
       <link

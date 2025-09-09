@@ -90,12 +90,6 @@ export const footer: Footer = {
           leavesWebsite: true
         },
         {
-          name: "IndieHackers",
-          link: "https://www.indiehackers.com/Leonel_ndl",
-          icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/indiehackers-f.svg`,
-          leavesWebsite: true
-        },
-        {
           name: "Email",
           link: "mailto:nguefackleonel@gmail.com",
           icon: `${process.env.NEXT_PUBLIC_BASE_URL}static/icons/mail-f.svg`,
@@ -106,7 +100,6 @@ export const footer: Footer = {
   ],
   support: {
     buymeacoffee: "nguefackleonel",
-    paypal: "nguefackleonel",
     message: "I appreciate your support very much! 💚"
   }
 };

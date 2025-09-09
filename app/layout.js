@@ -7,7 +7,6 @@ export const metadata = {
   applicationName: "Leonel Nguefack",
   keywords: [
     "Leonel Nguefack",
-    "leonel nguefack",
     "freelancers",
     "react developer",
     "reactjs freelancer",
@@ -26,17 +25,17 @@ export const metadata = {
     "nodejs",
     "firebase"
   ],
-  title: "Leonel Nguefack - Web and Mobile Developer, Fullstack React Dev and Dancer.",
+  title: "Leonel Nguefack - Senior FullStack React / React Native Developer",
   description:
-    "Experienced React developer adept in crafting dynamic web applications with React.js, nodejs and mobile application with React-native . Explore my portfolio for innovative projects and seamless user experiences.",
+    "I build web & mobile apps that convert users into customers.",
   alternates: {
     canonical: "https://ndl-pixel.vercel.app"
   },
   metadataBase: new URL("https://ndl-pixel.vercel.app"),
   openGraph: {
-    title: "Leonel Nguefack - Web and Mobile Developer, Fullstack React Dev and Dancer.",
+    title: "Leonel Nguefack - Senior FullStack React / React Native Developer",
     description:
-      "Experienced React developer adept in crafting dynamic web applications with React.js, nodejs and mobile application with React-native . Explore my portfolio for innovative projects and seamless user experiences.",
+      "I build web & mobile apps that convert users into customers.",
     url: "https://ndl-pixel.vercel.app",
     siteName: "Leonel Nguefack",
     images: [
@@ -82,9 +81,9 @@ export const metadata = {
   manifest: `${process.env.NEXT_PUBLIC_BASE_URL}static/favicon/site.webmanifest`,
   twitter: {
     card: "summary_large_image",
-    title: "Leonel Nguefack - Web and Mobile Developer, Fullstack React Dev and Dancer.",
+    title: "Leonel Nguefack - Senior FullStack React / React Native Developer.",
     description:
-      "Experienced ReactJS developer adept in crafting dynamic web applications with Next.js and Tailwind CSS. Explore my portfolio for innovative projects and seamless user experiences.",
+      "I build web & mobile apps that convert users into customers.",
     url: "https://ndl-pixel.vercel.app",
     images: {
       url: "https://ndl-pixel.vercel.app/static/misc/og.png",

@@ -8,7 +8,7 @@ function Navbar({ currentPage }) {
   return (
     <nav className="flex items-center justify-between">
       <div className="list-none font-bold text-lg cursor-pointer">
-        <Link href="/">
+        <Link href="mailto:nguefackleonel@gmail.com">
           <span className="font-black text-xl flex items-center">
             <Image
               alt="Leonel Nguefack"
@@ -17,7 +17,7 @@ function Navbar({ currentPage }) {
               width="60"
               height={60}
             />
-            {"Pixel".split("").map((letter, index) => {
+            {"OpenTo · SeniorRoles · Freelance · Remote (GMT-4)".split("").map((letter, index) => {
               return (
                 <span
                   key={index}

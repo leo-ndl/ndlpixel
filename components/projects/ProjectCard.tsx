@@ -52,7 +52,7 @@ function ProjectCard({ project }) {
             )}
           </div>
         </div>
-        <p className="text-fun-gray text-left text-sm">{project.desc}</p>
+        <p className="text-fun-gray text-left text-sm" dangerouslySetInnerHTML={{__html: project.desc}}></p>
         <ul className="flex flex-wrap items-center mt-2 -ml-2 list-none">
           {project.tags.map((tag, index) => {
             return (
