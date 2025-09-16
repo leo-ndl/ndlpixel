@@ -30,7 +30,7 @@ const projects = [
     id: 3,
     title: "IKEA Kontakter (Internal Messaging App)",
     desc: "<strong>Role</strong>: React Native Developer (via TCM)<br/><strong>Overview</strong>: Worked as part of a TCM team on IKEA Kontakter, an internal communication and collaboration app designed for employees. The app improves in-house communication across teams and departments by centralizing messages, announcements, and contacts.<br/><strong>Contributions</strong>: Implemented core messaging and notification features with React Native; Implemented UI by creating components from Zeplin designs; Optimized app performance (faster loading lists, smoother animations for navigation)<br/>",
-    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/tcm.png`,
+    img: `${process.env.NEXT_PUBLIC_BASE_URL}static/projects/kontakter.jpg`,
     tags: ["React Native", "Redux", "REST APIs", "Web RTC", "Firebase Cloud Messaging", "Gitlab"],
     link: "https://www.ikea.com/global/en/stories/ikea-around-the-world/more-than-just-a-conversation-170103/"
   },
